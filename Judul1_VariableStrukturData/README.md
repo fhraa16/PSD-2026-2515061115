@@ -51,6 +51,19 @@ Di baris 38 dan 39 jika ternyata user ketika menginput angka, tapi ternyata angk
 Di baris 41 dan 42 ini bertugas buat memastikan fungsi main berjalan ketika dieksekusi langsung di terminalnya.
 
 ## Output Program
+<img width="416" height="631" alt="image" src="https://github.com/user-attachments/assets/b6e0f708-ec65-419c-9666-ef0152341125" />
+
+Pada output ini ditampilkan jika user memasukkan opsi berupa kata atau angka di luar opsi yang disediakan maka sistem akan mencetak peringatan. Lalu saat user memilih opsi 1 dan menginput nama, nama itu akan disimpan ke list yang sudah dibuat sebelumnya. Lalu nama tersebut akan dicetak bahwa nama yang diinput sudah tersimpan atau ditambahkan.
+
+<img width="422" height="560" alt="image" src="https://github.com/user-attachments/assets/75efd363-99b9-485a-82b1-807af36634cf" />
+
+Pada output yang ini akan menampilkan output jika user meninput opsi 2 dan 3, di opsi 2 ada id untuk semua list nama siswa sedangkan di opsi 3 akan menampilkan id untuk setiap siswa yang sudah diinput namanya.
+
+Lalu ketika user menginput opsi 4 sistem akan langsung berhenti.
+
+<img width="397" height="309" alt="image" src="https://github.com/user-attachments/assets/baa22a34-9ff9-42cb-99cc-8366c3c31a4b" />
+
+Output yang ini ketika user memilih opsi 3 sedangkan ia belum memasukkan nama-nama siswa.
 
 
-# !! tinggal buat readmenya(jelasin secara singkat sistemnya nya buat apa 1-2 paragraf, jelasin perbaris si source codenya, jelasin singkat outputnya, trus jan lupa link yt ditaro disini) take video n upload di yt, trus linknya taro disini, trus 
+## Link YT
