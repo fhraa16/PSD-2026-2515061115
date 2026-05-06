@@ -21,7 +21,7 @@ def binary_search(arr, n, target):
     return pos
 
 def main():
-    print("-------Mencari Nomor Kursi Bioskop--------")
+    print("-------Mencari Letak Nomor Kursi Bioskop--------")
     arr = [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31]
     print(f"Nomor Kursi: {arr}")
     while True:
