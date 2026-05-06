@@ -22,7 +22,7 @@ def binary_search(arr, n, target):
 
 def main():
     print("-------Mencari Nomor Kursi Bioskop--------")
-    arr = [5, 7, 10, 12, 15, 18, 22, 25]
+    arr = [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31]
     print(f"Nomor Kursi: {arr}")
     while True:
         try:
@@ -33,11 +33,13 @@ def main():
     n = len(arr)
     pos = binary_search(arr, n, target)
     baris = pos 
-    if pos == 0 or pos == 1 or pos == 2 or pos == 3:
+    if pos <= 4:
         baris = "Depan"
+    elif pos > 4 and pos <= 9:
+        baris = "Tengah"
     else:
-        if pos == 4 or pos == 5 or pos == 6 or pos == 7:
-            baris = "Belakang"
+        pos > 9
+        baris = "Belakang"
     if pos != -1:
         print(f"Nomor kursi {target} Ditemukan pada indeks ke-{pos} di area {baris}")
     else:
