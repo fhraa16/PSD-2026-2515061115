@@ -27,6 +27,8 @@ Baris 6 ini berfungsi sebagai batas, jadi kek batas dari bagian kiri itu dari in
 
 Baris 7 ini berfungsi sebagai batas bagian kanan, yang batasnya berada di indeks paling akhir.
 
+Baris 8 ini buat menyimpan posisi awal indeks yang ditemukan.
+
 Baris 9-11 ini adalah bentuk perulangan, dimana nilai yang dicari lebih dari yang sebelah kiri atau sama dengan yang sebelah kanan.
 Lalu akan mengecek indeks tengah buat membagi menjadi dua ruang pencarian. Setelah itu nanti akan dicetak.
 
