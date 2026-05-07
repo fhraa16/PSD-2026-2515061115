@@ -96,3 +96,4 @@ Nomor kursi ini berada di indeks 13 yaitu indeks hampir ahir.
 Yang berarti berada di letak "Belakang".
 
 ## Link YT
+https://youtu.be/kXMv4Ej-U5Y
