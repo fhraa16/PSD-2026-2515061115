@@ -38,7 +38,7 @@ class QueueLinkedList:
             print("Antrian kosong")
             return
         temp = self.front_ptr
-        print(f"Antrian {temp.data} berhasil dihapus")
+        print(f"Antrian {temp.data} silakan ke teller/cs")
         self.front_ptr = self.front_ptr.next
         if self.front_ptr is None:
             self.rear_ptr = None
