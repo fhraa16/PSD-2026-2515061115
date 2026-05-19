@@ -1,10 +1,18 @@
 # Sistem Antrian Bank Bahagia
 
-Jadi, di sini kita membuat sistem Antrian Bank Bahagia yang menrapkan struktur Queue yang menggunakan Linked List. 
-Alurnya 
+Jadi, di sini kita membuat sistem Antrian Bank Bahagia yang menerapkan struktur data Queue yang menggunakan Linked List. 
+Alurnya dimulai dengan menampilkan pilihan menu interaktif, dimana user bisa nambah antrian, hapus antrian dari depan, melihat antrian terdepan, atau melhiat seluruh is antrian.
+Lalu biar programmnya tidak mudah nge-crash pas user milih menu, di sini ditambahkan validasi try-excpet buat menanganin error kalau ada usernya salah input, yang harusnya angka malah huruf.
+
+Lalu dibagian enqueue nya disini ditambahin kondisi khusus dimana kalau jumlah antriannya udah mencapai 7 atau lebih, nanti sistem ini akan ngasih peringatan "Antrian sudah padat!" lalu nanya ke user apakah mau lanjut ngantri atau tidak.
+Selain itu, saat user milih opsi keluar, sistemnya tidak akan langsung berhenti, tapi bakal kosongin dulu sisa antriannya.
+Nah prosesnya itu menggunakan proses looping dequeue sampai si antriannya benar-benar kosong.
+
 ## Source Code
 
 <img width="492" height="70" alt="image" src="https://github.com/user-attachments/assets/ef376f91-9834-48dc-89e2-4175dcbf1500" />
+
+
 
 <img width="650" height="107" alt="image" src="https://github.com/user-attachments/assets/afb7a8f6-0b02-4653-99de-ff15151516cb" />
 
