@@ -1,6 +1,7 @@
 # Sistem Antrian Bank Bahagia
 
-
+Jadi, di sini kita membuat sistem Antrian Bank Bahagia yang menrapkan struktur Queue yang menggunakan Linked List. 
+Alurnya 
 ## Source Code
 
 <img width="492" height="70" alt="image" src="https://github.com/user-attachments/assets/ef376f91-9834-48dc-89e2-4175dcbf1500" />
