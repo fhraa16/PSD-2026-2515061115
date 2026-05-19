@@ -17,6 +17,12 @@ class QueueLinkedList:
         return self.front_ptr is None
 
     def enqueue(self, x):
+        if self.count >= 7:
+            print("Antrian sudah padat!")
+            lanjut = input("Apakah tetap ingin mengambil antrian? (y/n): ")
+            if lanjut.lower() != 'y':
+                print("Pengambilan antrian dibatalkan.")
+                return
         new_node = Node(x)
         if self.is_empty():
             self.front_ptr = new_node
@@ -26,9 +32,6 @@ class QueueLinkedList:
             self.rear_ptr = new_node
         self.count += 1
         print(f"Antrian {x} berhasil ditambahkan")
-        if self.count > 7:
-            print("!!ALERT!!")
-            print("Antrian sangat padat, mohon percepat pelayanan!")
 
     def dequeue(self):
         if self.is_empty():
@@ -77,12 +80,10 @@ def main():
         except ValueError:
             print("Input tidak valid!")
             continue
+        
         if pilih == 1:
-            try:
-                val = int(input("Nilai: "))
-                queue.enqueue(val)
-            except ValueError:
-                print("Input tidak valid!")
+            val = input("Masukkan Nama Anda: ")
+            queue.enqueue(val)
         elif pilih == 2:
             queue.dequeue()
         elif pilih == 3:
