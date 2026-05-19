@@ -135,5 +135,42 @@ Baris 100 ini buat mengecek apakag file nya dijalankan langsung atau tidak
 Baris 101 ini buat manggil si fungsi utama sistem.
 
 ## Output Program
+<img width="835" height="411" alt="image" src="https://github.com/user-attachments/assets/1d45ee9c-af12-41f1-85aa-f60ae700c883" />
+
+User masih meng-inputkan nama
+
+<img width="654" height="476" alt="image" src="https://github.com/user-attachments/assets/6702fb34-1f64-4140-b9be-f97a2aa3a3b9" />
+
+User masih menginputkan nama, tapi di output ada peringatan input tidak valid, karena user belum memasukkan inputan tapi sudah mengirimkannya.
+
+<img width="748" height="165" alt="image" src="https://github.com/user-attachments/assets/8cb416c5-8398-442d-a9cd-5d1dd9977f33" />
+
+Ini adalah bentuk ouput ketika user memilih menu ke 4, dan antrian masih berjumlah 4 antrian.
+
+<img width="571" height="156" alt="image" src="https://github.com/user-attachments/assets/5eb01bae-d849-42a4-9b4c-0a9e9cfbff89" />
+
+INi adalah bentuk output ketika user memilih opsi 3 yang berupa melihat data antrian pertama.
+
+<img width="648" height="153" alt="image" src="https://github.com/user-attachments/assets/e987e79e-9a5a-4395-b04a-8006b630e7aa" />
+
+Nah ini adalah bentuk user ketika salah memasukkan inputan, sistem akan memberikan peringatan tidak valid, dan akan menanyakan kembali menu yang akan dipilih oleh user.
+
+<img width="866" height="205" alt="image" src="https://github.com/user-attachments/assets/3c7bd038-1291-44c3-a248-1f7db970ff5d" />
+
+Ketika user ingin memasukkan lagi nama, tapi antrian sudah ada 7, maka sistem akan memberikan peringatan, nah kalau user memilih 'n' maka pengambilan antrian akan dibatalkan.
+
+<img width="883" height="505" alt="image" src="https://github.com/user-attachments/assets/d8e894a2-0813-4761-8f64-6f06755f065f" />
+
+Di sini ketika user mau lihat semua yang antri dan total yang antri sudah mencapai 7 maka sistem akan kasih tau bahwa status antrianya itu udah padat.
+
+Lalu ketika user memilih menu ke 2 yang berarti menghapus data pertama, maka nama Fahra akan ditampilkan dan diarahkan untuk ke teller/cs, dan data pertama akan langsung digantikan dengan nama gojo.
+
+Setelah itu, ketika user menampilkan keseluruhan antrian maka antrian menjadi status lancar, karena antrian suadh berkurang satu.
+
+<img width="688" height="255" alt="image" src="https://github.com/user-attachments/assets/caaa1744-5d7e-4e0b-8095-1d45baec165e" />
+
+Di Output ini user memilih menu ke 5 dimana menu tersebut berupa menu keluar, tapi sebelum sistemnya benar-benar selesai, sistem akan mengosongkan antriannya terlebih dahulu, setelah antriannya kosong, baru sistem akan selesai.
 
 ## Link YT
+
+https://youtu.be/JGnSp5KO7yE
