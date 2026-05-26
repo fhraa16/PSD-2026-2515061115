@@ -202,4 +202,14 @@ Baris 180-181 ini fungsi buat memastikan saat di running nanti fungsi utama otom
 
 ## Output Program
 
+<img width="817" height="627" alt="image" src="https://github.com/user-attachments/assets/fc433396-b08c-4785-8734-4e794ca876d5" />
+
+<img width="1117" height="636" alt="image" src="https://github.com/user-attachments/assets/a071de4d-d9eb-4353-8aa7-d83b99eaafa6" />
+
+<img width="911" height="588" alt="image" src="https://github.com/user-attachments/assets/73c91a21-947a-4dfb-92dc-762503482186" />
+
+<img width="1040" height="585" alt="image" src="https://github.com/user-attachments/assets/7e16297d-b215-4516-a4db-ea40a62f5cd4" />
+
+<img width="1207" height="342" alt="image" src="https://github.com/user-attachments/assets/962ece4c-435b-4e82-8538-4c3fa87897a9" />
+
 ## Link YT
