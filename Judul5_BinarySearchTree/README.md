@@ -204,12 +204,34 @@ Baris 180-181 ini fungsi buat memastikan saat di running nanti fungsi utama otom
 
 <img width="817" height="627" alt="image" src="https://github.com/user-attachments/assets/fc433396-b08c-4785-8734-4e794ca876d5" />
 
+Disini output ketika user salah menginputkan yang seharusnya memasukkan angka, tapi malah huruf.
+Lalu, ternyata user malah memasukkan angka di luar 1-6, maka program langsung memberikan peringatan input tidak valid.
+Setelah itu user memilih menu 1 yang mana user harus memasukkan skor terbaru. Di sini user memasukkan skor 78.
+
 <img width="1117" height="636" alt="image" src="https://github.com/user-attachments/assets/a071de4d-d9eb-4353-8aa7-d83b99eaafa6" />
+ 
+Lalu user memilih lagi menu 1 sampai di keseluruhan skor ada 78, 56, 89, dan 33.
 
 <img width="911" height="588" alt="image" src="https://github.com/user-attachments/assets/73c91a21-947a-4dfb-92dc-762503482186" />
 
+Setelah itu  user masih memilih menu 1 sampai keselurah skor ada 78, 56, 89, 33, 66, dan 20.
+Kemudian user memilih menu 3 yang mana menu tersebut buat mengecek kedalaman dari si pohon ini.
+Dan kedalaman dari skor yang telah dimasukkan oleh user adalah 3.
+
 <img width="1040" height="585" alt="image" src="https://github.com/user-attachments/assets/7e16297d-b215-4516-a4db-ea40a62f5cd4" />
+
+Setelah itu user memilih menu 4 dimana menu itu buat mengecek nilai sebelum nilai yang mau dicari. 
+Disini user memasukkan skor 66 sebagai patokan nilai yang mau dicari, sehingga nilai yang terbesar setelah 66 adalah 78.
+Lalu user memilih menu 5 yang mana kebalikan dari menu 4 itu sendiri, di menu 5 ini akan menampilkan nilai terkecil sebelum nilai yang kita cari.
+Di sini user memasukkan nilai 33 sebagai nilai patokannya, sehingga nilai skor 22 yang akan menjadi predecessor dari si skor 33.
+Setelah itu user memilih menu 2, yang di menu itu adalah pilihan buat menghapus skor tertentu. Di sini user ingin menghapus nilai skor 66.
+Sehingga skor yang tersisa di tree ada 78, 56, 89, 33, dan 20.
 
 <img width="1207" height="342" alt="image" src="https://github.com/user-attachments/assets/962ece4c-435b-4e82-8538-4c3fa87897a9" />
 
+Lalu user memilih menu 3 dimana itu mengecek kedalaman skor, dan setelah pemghapusan skor 66, kedalaman skor nya masih berada di level 3.
+Lalu user memilih menu 6 yang mana itu adalah menu untuk menyelesaikan program.
+
 ## Link YT
+
+https://youtu.be/kLMStzAB5VU
