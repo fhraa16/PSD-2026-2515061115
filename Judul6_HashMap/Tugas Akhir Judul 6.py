@@ -3,13 +3,11 @@ class SlotState:
     OCCUPIED = 1
     DELETED = 2
 
-
 class Entry:
     def __init__(self):
         self.key = None
         self.value = None
         self.state = SlotState.EMPTY
-
 
 class HashMapOpenAddressing:
     def __init__(self, size=10):
@@ -73,7 +71,6 @@ class HashMapOpenAddressing:
             else:
                 print(f"({self.table[i].key},{self.table[i].value})")
 
-
 def main():
     hashmap = HashMapOpenAddressing()
     hashmap.insert(1, "Tersedia")
@@ -86,7 +83,7 @@ def main():
     
     pilih = 0 
     while pilih != 3 :
-        print("\nMenu Status Ruangan:")
+        print("\nMenu Status Ketersediaan Ruangan:")
         print("1. Cari Ruangan")
         print("2. Hapus Ruangan")
         print("3. Keluar")
@@ -103,14 +100,16 @@ def main():
                 print(f"\nRuangan {hasil.key} ditemukan, status = {hasil.value}")
             else:
                 print(f"\nRuangan tidak ditemukan/maintenance")
+                
         elif pilih == 2:
             hasil = input("Masukkan nomor ruangan yang ingin dihapus: ")
             if hashmap.remove_key(int(hasil)):
                 print(f"\nRuangan {hasil} berhasil dihapus")
             else:
-                print(f"\nRuangan {hasil} tidak ditemukan/maintenance")
+                print(f"\nRuangan tidak ditemukan/maintenance")
             print("\nSetelah menghapus ruangan:")
             hashmap.display()
+            
         elif pilih == 3:
                 print("\nKeluar dari program.")
         else:
