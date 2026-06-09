@@ -133,4 +133,28 @@ Baris 119-120, Blok standar di Python untuk memastikan bahwa fungsi main() hanya
 
 ## Output Program
 
+<img width="599" height="555" alt="image" src="https://github.com/user-attachments/assets/a0a9328e-65d7-4da0-8114-779571dcd016" />
+
+Ini hasil dari saat user memilih menu 1 yaitu mencari ruangan, dan memasukkan ruangan 5 yang statusnya adalah terreservasi.
+
+<img width="720" height="242" alt="image" src="https://github.com/user-attachments/assets/02b14e98-06d5-475c-a290-ef6f9766b6dd" />
+
+Ini jika user mencari ruangan yang tidak ada, maka akan menampilkan ruangan tidak tersedia/maintenance.
+
+<img width="830" height="593" alt="image" src="https://github.com/user-attachments/assets/8b05e1f1-41a2-4add-9de3-b1b9d7ebeb07" />
+
+Ini jika user memilih menu 2 yang mana menu tersebut adalah menu buat menghapus ruangan, dan di sini user mau menghapus ruangan 5.
+Jadi setelah penghapusan ruangan berhasil, maka program akan otomatis menampilkan tabel terbaru.
+
+<img width="742" height="605" alt="image" src="https://github.com/user-attachments/assets/463c75ee-8b5c-4235-99d5-0de4d42596e5" />
+
+Akan tetapi, jika user memasukkan ruangan kosong ke dalam ruangan yang mau dihapus. 
+Maka program akan menampilkan pesan ruangan tidak tersedia/maintenance
+
+<img width="602" height="197" alt="image" src="https://github.com/user-attachments/assets/52ed9596-c5f9-40b7-ad0a-8e7c27c7dca0" />
+
+Jika user sudah selesai dengan ruangan yang ingin dicari, maka user akan memilih menu 3, yaitu menu selesai.
+
 ## Link YT
+
+https://youtu.be/LUYQeOsw10o
